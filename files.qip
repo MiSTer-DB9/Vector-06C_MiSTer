@@ -10,3 +10,5 @@ set_global_assignment -name VERILOG_FILE rtl/k580vm80a.v
 set_global_assignment -name VERILOG_FILE rtl/k580vi53.v
 set_global_assignment -name SDC_FILE "Vector-06C.sdc"
 set_global_assignment -name SYSTEMVERILOG_FILE "Vector-06C.sv"
+set_global_assignment -name VERILOG_FILE rtl/joydb9md.v
+set_global_assignment -name VERILOG_FILE rtl/joydb15.v
