@@ -7,7 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=retry.sh
 source "${SCRIPT_DIR}/retry.sh"
 
-UPSTREAM_REPO="https://github.com/MiSTer-devel/Vector-06C_Mister.git"
+UPSTREAM_REPO="https://github.com/MiSTer-devel/Vector-06C_MiSTer.git"
 CORE_NAME=(Vector-06C)
 MAIN_BRANCH="master"
 UPSTREAM_BRANCH="master"
