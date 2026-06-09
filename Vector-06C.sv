@@ -353,8 +353,8 @@ wire [63:0] img_size;
 wire        img_readonly;
 
 // F4 F3 F2 F1 U D L R 
-wire [31:0] joyA = joydb_1ena ? (OSD_STATUS? 32'b000000 : joydb_1[7:0]) : joyA_USB;
-wire [31:0] joyB = joydb_2ena ? (OSD_STATUS? 32'b000000 : joydb_2[7:0]) : joydb_1ena ? joyA_USB : joyB_USB;
+wire [31:0] joyA = joydb_1ena ? (OSD_STATUS? 32'b000000 : joydb_1_mapped[7:0]) : joyA_USB;
+wire [31:0] joyB = joydb_2ena ? (OSD_STATUS? 32'b000000 : joydb_2_mapped[7:0]) : joydb_1ena ? joyA_USB : joyB_USB;
 
 
 
